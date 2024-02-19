@@ -1,1 +1,35 @@
+```{r}
+require (mosaic)
+library (ggplot2)
+library (dplyr)
+library (tidyr)
+library (readr)
+library(ggrepel)
+library(ggbreak)
+library(patchwork)
+library(tidyverse)
+library(readxl)
+
+```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+Video_One <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vSdzJZpHfcEK2HSeLkh047jE3WHZc_ucFwhc4sJpU1VQwgoMkTRE1vN34oMbMt6mVALwOuF-MtNQc8y/pub?gid=443425973&single=true&output=csv")
+
+```
+#Load required packages
+
+```{r}
+install.packages("sand")
+```
+```{r}
+install.packages("sna")
+```
+```{r}
+install.packages("diagram")
+```
 
